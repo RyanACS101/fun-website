@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: white;
+  color: #2a5298;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+  background-color: #f0f0f0;
+}
+
+#intro {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+#intro button {
+  font-size: 1rem;
+  padding: 5px 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.intro-content {
+  text-align: center;
+}
+
+.hint {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  opacity: 0.7;
+  letter-spacing: 1px;
+}
+
+.enter-btn {
+  background: white;
+  color: black;
+  border: none;
+  border-radius: 120px;
+  padding: 30px 60px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.2s ease;
+}
+
+.enter-btn:hover {
+  transform: scale(1.05);
+}
+
+.big-text {
+  font-size: 1rem;
+  font-weight: medium;
+}
+
+.small-text {
+  font-size: 0.9rem;
+  opacity: 0.6;
+  margin-top: 5px;
+}

@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Ryan's Fun Site</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <h1>Ryan's Website Is Live 🚀</h1>
-  <button onclick="sayHi()">Click Me</button>
+  <div id="intro">
+    <button onclick="enterSite()" class="enter-btn">
+      <span>Enter</span>
+      <span class="small-text">press Enter</span>
+    
+  </div>
+
+  <div id="main-content" class="hidden">
+    <h1>Ryan's Website 🚀</h1>
+    <button onclick="sayHi()">Click Me</button>
+  </div>
 
   <script src="script.js"></script>
 </body>
+
 </html>
